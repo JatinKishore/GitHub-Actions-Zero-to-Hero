@@ -1,10 +1,10 @@
 name: My First GitHub Actions
 
 on: [push]
-#soora kaatha pora varaan da unna suluku eduka kelambi varataanda dei dei dei
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     #unubtu
 
     strategy:
